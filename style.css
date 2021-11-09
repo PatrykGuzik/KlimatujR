@@ -1,0 +1,117 @@
+body
+{
+	background-color: white;
+	color: black;
+    
+    font-size: 17px;
+}
+
+
+
+.content
+{
+	text-align: center;
+}
+
+.card
+{
+	transform: scale(0.9);
+	transition: all 0.2s ease-in-out;
+	border-color: #F8C129 !important;
+}
+
+.card:hover
+{
+	transform: scale(0.92);
+}
+
+p.small
+{
+	color: #bababa;
+	margin: 0px 0px 4px !important;
+}
+
+h5.card-title
+{
+	margin: 0px 0px 4px !important;
+}
+
+
+
+.content p
+{
+	margin-bottom: 30px;
+}
+
+.content figcaption
+{
+	margin-top: 8px;
+	text-align: justify;
+}
+
+.slider
+{
+	margin-top: 8px;
+}
+
+#panel
+{
+	text-align: justify;
+}
+
+
+.carousel-item h5
+{
+	font-size: 25px;
+}
+
+.carousel-item p
+{
+	font-size: 20px;
+}
+
+.wpis 
+{
+	text-align:justify;
+	font-size:16px;
+}
+
+.border-bottom {
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: #F8C129 !important;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #F8C129;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+@media (max-width: 575px)
+{
+	.wpis
+	{
+		text-align:left;
+		font-size:15px;
+	}
+}
+
+
+
+.blog-footer {
+    padding: 2rem;
+    color: #727272;
+    text-align: center;
+    background-color: white;
+    border-top: .05rem solid #F8C129;
+}
+
+.content p
+{
+	margin-bottom: 15px;
+}
